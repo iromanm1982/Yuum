@@ -3,6 +3,38 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# generados por el ide
+.classpath
+.gitignore
+.project
+.settings/
+business/.classpath
+business/.project
+business/.settings
+integration/.classpath
+integration/.project
+integration/.settings
+services/.classpath
+services/.project
+services/.settings
+war/.classpath
+war/.project
+war/.settings/*
+util/.classpath
+util/.project
+util/.settings
+#
+# #proyectos excluidos
+/src/
+target/*
+business/target/
+integration/target/
+services/target/
+war/target/
+business/bin/
+util/target/
+#
+
 # Package Files #
 *.jar
 *.war
